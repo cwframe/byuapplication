@@ -28,4 +28,11 @@ The following is an explanation of each setting:
 After setting up the settings.ini, the file will run by simply typing:
 python main.py
 
+
+Assumptions:
+* The smtp server works with tls
+* setting.ini has been filled out correctly
+* The AWS access token gives write permissions to the given bucket
+* The s3 bucket has already been created
+
 If you have any questions please contact me.
