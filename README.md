@@ -7,9 +7,9 @@ This program only uses tls to send emails over smtp.
 
 It is designed to work with gmail, but can potentially work with other smtp servers.
 
-This program is designed to run in python 2.7 and you must install the following packages using pip
-	boto3
-	PyGithub
+This program is designed to run in python 2.7 and you must install the following packages using pip:
+* boto3
+* PyGithub
 
 This program has a settings.ini file that must be filled out in order to run.
 The following is an explanation of each setting:
